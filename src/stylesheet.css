@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #FAFBF6;
+}
+
+header {
+    margin: auto;
+    padding: 70px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo-container {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background: #D18F52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo-container .logo {
+    height: 55px;
+}
+
+header .title {
+    font-size: 36px;
+    font-family: serif;
+    text-align: center;
+    color: black;
+}
+
+header .navigation {
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+header .navigation .navigation-link {
+    margin-right: 20px;
+    font-family: arial, serif;
+    font-weight: bold;
+    color: black;
+}
+
+header .navigation .navigation-link:hover, header .navigation .selected {
+    text-decoration: none;
+    color: #D18F52;
+}
+
+main {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 900px;
+}
+
+main .image {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+main .title {
+    margin: 15px 0 5px;
+    font-size: 24px;
+    font-family: arial, serif;
+    color: black;
+}
+
+main .wrapper {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+main .wrapper .card {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    margin: auto;
+    padding: 20px 30px 30px;
+    text-align: center;
+}
+
+footer .text {
+    font-size: 16px;
+    font-family: arial, serif;
+    font-weight: bold;
+}
